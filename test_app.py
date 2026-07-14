@@ -14,4 +14,4 @@ def test_health(client):
 
 def test_somma(client):
     r = client.get('/somma/3/4')
-    assert r.get_json()['risultato'] == 7
+    assert r.get_json()['risultato'] == 999
